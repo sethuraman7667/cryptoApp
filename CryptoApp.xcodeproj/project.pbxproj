@@ -22,6 +22,7 @@
 		447799BC2CD774C400E071E0 /* PortfolioContainer.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 447799BA2CD774C400E071E0 /* PortfolioContainer.xcdatamodeld */; };
 		447799BE2CD778B700E071E0 /* PortfolioDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447799BD2CD778B700E071E0 /* PortfolioDataService.swift */; };
 		447799C32CD7D5DD00E071E0 /* DetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447799C22CD7D5DD00E071E0 /* DetailsView.swift */; };
+		447B58192CDD938E00348EA5 /* CryptoApp.postman_collection.json in Resources */ = {isa = PBXBuildFile; fileRef = 447B58182CDD938E00348EA5 /* CryptoApp.postman_collection.json */; };
 		447DE3852CDC491400AD02E8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 447DE3842CDC491400AD02E8 /* LaunchScreen.storyboard */; };
 		447DE3872CDC49CD00AD02E8 /* CustomLaunch.swift in Sources */ = {isa = PBXBuildFile; fileRef = 447DE3862CDC49CD00AD02E8 /* CustomLaunch.swift */; };
 		449E295C2CDAF0E600D81A60 /* ChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 449E295B2CDAF0E600D81A60 /* ChartView.swift */; };
@@ -59,6 +60,7 @@
 		447799BB2CD774C400E071E0 /* PortfolioContainer.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PortfolioContainer.xcdatamodel; sourceTree = "<group>"; };
 		447799BD2CD778B700E071E0 /* PortfolioDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioDataService.swift; sourceTree = "<group>"; };
 		447799C22CD7D5DD00E071E0 /* DetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsView.swift; sourceTree = "<group>"; };
+		447B58182CDD938E00348EA5 /* CryptoApp.postman_collection.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = CryptoApp.postman_collection.json; sourceTree = "<group>"; };
 		447DE3842CDC491400AD02E8 /* LaunchScreen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		447DE3862CDC49CD00AD02E8 /* CustomLaunch.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomLaunch.swift; sourceTree = "<group>"; };
 		449E295B2CDAF0E600D81A60 /* ChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChartView.swift; sourceTree = "<group>"; };
@@ -171,6 +173,14 @@
 			path = View;
 			sourceTree = "<group>";
 		};
+		447B58162CDD92B500348EA5 /* MockJson */ = {
+			isa = PBXGroup;
+			children = (
+				447B58182CDD938E00348EA5 /* CryptoApp.postman_collection.json */,
+			);
+			path = MockJson;
+			sourceTree = "<group>";
+		};
 		447DE3832CDC490100AD02E8 /* Launch */ = {
 			isa = PBXGroup;
 			children = (
@@ -199,6 +209,7 @@
 		44DD6F6B2CD510DF005DCB5F /* CryptoApp */ = {
 			isa = PBXGroup;
 			children = (
+				447B58162CDD92B500348EA5 /* MockJson */,
 				446908AD2CD62B99006F2318 /* Utilities */,
 				446908AA2CD61556006F2318 /* Service */,
 				44DD6F7C2CD512EF005DCB5F /* Extension */,
@@ -369,6 +380,7 @@
 			files = (
 				447DE3852CDC491400AD02E8 /* LaunchScreen.storyboard in Resources */,
 				44DD6F742CD510DF005DCB5F /* Preview Assets.xcassets in Resources */,
+				447B58192CDD938E00348EA5 /* CryptoApp.postman_collection.json in Resources */,
 				44DD6F7B2CD511E3005DCB5F /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
