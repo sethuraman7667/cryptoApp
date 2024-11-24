@@ -26,6 +26,8 @@ struct CryptoAppApp: App {
                     .navigationBarHidden(true)
             }
             .environmentObject(vm)
+                // for iPad style
+            .navigationViewStyle(StackNavigationViewStyle())
             
             ZStack{
                 if showLaunchScreen {
